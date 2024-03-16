@@ -15,22 +15,7 @@ The methodology begins with data preparation, where masks from chest X-ray image
 In summary, the methodology involves a systematic approach to preprocess data, train deep learning models, and evaluate their performance. By combining advanced techniques like GAN architecture with established architectures like U-Net and leveraging augmentation methods, the methodology aims to improve lung CT segmentation accuracy. The use of key components such as batch normalization, downsampling layers, and loss functions ensures stable training and robust model performance. Through rigorous testing and evaluation, the methodology strives to deliver accurate and reliable results for lung CT segmentation tasks, facilitating better diagnosis and treatment planning for lung-related diseases.
 
 # Python Libraries:
-numpy
-pandas
-scipy.stats
-matplotlib.pyplot
-seaborn
-LabelEncoder from sklearn.preprocessing
-train_test_split from sklearn.model_selection
-SVC from sklearn.svm
-GaussianNB from sklearn.naive_bayes
-RandomForestClassifier from sklearn.ensemble
-Flask from flask
-sqlite3
-pickle
-array from array
-importlib
-openai
+The code imports various libraries for deep learning and image processing tasks. These include keras for building neural networks, numpy for numerical computations, tensorflow for machine learning tasks, pandas for data manipulation, skimage for image processing, os for operating system interactions, cv2 for computer vision tasks, glob for file path manipulation, and matplotlib.pyplot for visualization. Additionally, modules like pathlib, time, datetime, gc, re, and sys are imported for various utility functions. Furthermore, the code imports specific modules from tensorflow.keras.layers, keras.applications, keras.optimizers, keras.preprocessing, sklearn.metrics, IPython.display, and skimage.util. These libraries are essential for tasks such as building neural networks, preprocessing images, data manipulation, and visualization.
 
 # Results:
 The GAN architecture achieved a high accuracy of 97.5% for chest X-ray segmentation, surpassing conventional ResNet and U-Net methods. The model demonstrates efficacy in accurately identifying lung abnormalities, showcasing its potential for improving medical image analysis.
